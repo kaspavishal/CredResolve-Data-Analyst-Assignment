@@ -1,0 +1,7 @@
+Area,Finding,Business impact,Priority
+Recovery improvement claim,The claimed 11% month-on-month improvement is not yet verified.,A reliable recovery-rate calculation requires a validated denominator and comparable periods.,Critical
+Payment identifiers,"25,014 payment rows contain 25,000 unique payment IDs.",Repeated IDs require investigation before final payment totals are trusted.,High
+Borrower identity,"30,000 borrower rows contain only 11,015 unique borrower IDs.",Borrower joins can multiply rows and inflate metrics.,Critical
+Payment references,"3,407 payment references are repeated and linked to multiple payment IDs, accounts, and amounts.",Payment references cannot safely be treated as unique transaction identifiers.,Critical
+Reporting period,"Available payment data runs from January 1 to August 8, 2026.","The available period does not support a 12-month trend assessment, and August is incomplete.",High
+Risk and delinquency,Successful-payment account coverage has been calculated by risk segment and DPD bucket.,Coverage helps compare groups but does not measure the proportion of outstanding money recovered.,Medium

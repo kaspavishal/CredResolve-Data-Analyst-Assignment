@@ -1,0 +1,7 @@
+"Issue","Business_Impact","Recommended_Action"
+"Missing borrower IDs","Accounts may not be reliably linked to borrowers.","Investigate source records and reconcile using reliable identifiers."
+"Invalid borrower references","Account-to-borrower relationships may be incorrect or incomplete.","Validate references against the borrower master dataset."
+"Duplicate borrower or account IDs","Duplicate entities may distort counts and operational reporting.","Compare records before deciding whether they are duplicates."
+"Duplicate payment IDs or references","Payment totals may be overstated if duplicate events are counted more than once.","Reconcile payment IDs, references, amounts, and timestamps before deduplication."
+"Missing contact, agent, vendor, or visit-date fields","Communication, attribution, and operational performance analysis may be incomplete.","Check source systems and document unresolved missing values."
+"Accounts without status history","Account lifecycle and historical status analysis may be incomplete.","Check source history and determine whether missing events are expected."

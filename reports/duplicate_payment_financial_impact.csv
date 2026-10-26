@@ -1,0 +1,5 @@
+payment_status,records_in_repeated_ids,repeated_payment_ids,total_amount
+FAILED,2,1,53538.68
+PENDING,2,1,284281.44
+REVERSED,2,1,15829.8
+SUCCESS,22,11,1780999.0

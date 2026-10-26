@@ -1,0 +1,7 @@
+"Check","Count"
+"Total accounts","30000"
+"Accounts with blank borrower_id","455"
+"Accounts with invalid borrower references","2458"
+"Unique borrower IDs","11015"
+"Borrower IDs appearing multiple times","8566"
+"Accounts without status-history records","41"

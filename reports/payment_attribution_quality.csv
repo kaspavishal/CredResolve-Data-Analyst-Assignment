@@ -1,0 +1,2 @@
+total_payments,unique_payment_ids,payments_without_matching_account,payments_without_matching_borrower,successful_payment_records,successful_payment_amount
+64418,25000,0.0,2043.0,45125.0,3373730155.73
